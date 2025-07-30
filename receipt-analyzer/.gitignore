@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment/secrets
+.env
+*.env.local
+
+# Docker
+**/.env  # Double-ensure .env files are ignored everywhere
+
+# IDE
+.vscode/
+
+# Logs & temp files
+*.log
+logs/
+tmp/
+temp/
+
+# Database files
+*.db
+*.sqlite
+
+# macOS system files  
+.DS_Store  
