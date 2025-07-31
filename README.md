@@ -1,8 +1,8 @@
-# 📧 Receiptify
+# Receiptify
 
 AI-powered expense tracking application that automatically processes receipt photos, extracts data via OCR, and categorizes expenses with intelligent analytics.
 
-## 🚀 Features
+## Features
 
 - **Smart OCR Processing**: Upload receipt photos and extract merchant, amount, and date automatically
 - **Intelligent Categorization**: Rule-based expense categorization with user feedback collection
@@ -10,7 +10,7 @@ AI-powered expense tracking application that automatically processes receipt pho
 - **Analytics Dashboard**: Interactive spending visualizations and reports
 - **Future-Ready**: Built with ML integration capabilities for improved categorization
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Backend:**
 - **FastAPI** - Modern Python web framework with auto-documentation
@@ -29,7 +29,7 @@ AI-powered expense tracking application that automatically processes receipt pho
 - **SQLite** - Development database (PostgreSQL for production)
 - **Local Storage** - Development file storage (AWS S3 for production)
 
-## 🏗️ Development Roadmap
+## Roadmap
 
 ### Week 1: Foundation & Core Backend
 - [x] FastAPI setup with auto-documentation
@@ -56,7 +56,7 @@ AI-powered expense tracking application that automatically processes receipt pho
 - [ ] Unit tests and error handling
 - [ ] Production deployment setup
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -100,7 +100,7 @@ AI-powered expense tracking application that automatically processes receipt pho
    - Documentation: http://localhost:8000/docs
    - Database: `receipts.db` file in backend folder
 
-## 📊 API Documentation
+## API Documentation
 
 FastAPI automatically generates interactive API documentation:
 - **Swagger UI**: http://localhost:8000/docs
@@ -112,7 +112,7 @@ FastAPI automatically generates interactive API documentation:
 - `GET /receipts` - List all receipts
 - `POST /receipts/test` - Create test receipt
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Receipts Table
 ```sql
@@ -139,8 +139,6 @@ CREATE TABLE users (
 );
 ```
 
-## 🚀 Production Considerations
-
 ### Switching to Production Services:
 
 1. **Database**: SQLite → PostgreSQL
@@ -156,8 +154,6 @@ CREATE TABLE users (
 3. **Background Tasks**: Local → Redis + Celery Workers
 4. **Deployment**: Docker containers on AWS/DigitalOcean
 
-## 🤝 Contributing
-
 This is a learning project built to demonstrate modern Python web development practices. Key learning objectives:
 
 - **FastAPI**: Modern async Python web framework
@@ -166,7 +162,7 @@ This is a learning project built to demonstrate modern Python web development pr
 - **API Integration**: Working with external services (OpenAI)
 - **System Architecture**: Designing for scalability and maintainability
 
-## 📝 Notes
+## Notes
 
 - **Development Focus**: Currently using SQLite and local storage for simplicity
 - **Production Ready**: Architecture supports easy migration to production services
